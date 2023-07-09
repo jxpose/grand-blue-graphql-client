@@ -1,0 +1,7 @@
+query productDetails {
+    getProducts {
+        productId
+        productName
+        productDescription
+    }
+}

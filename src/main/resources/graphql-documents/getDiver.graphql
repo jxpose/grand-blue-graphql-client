@@ -1,0 +1,8 @@
+query diverDetails($diverId: String!)  {
+    getDiver(diverId: $diverId) {
+        diverId
+        diverName
+        divingLevel
+        divingLicenseNumber
+    }
+}
