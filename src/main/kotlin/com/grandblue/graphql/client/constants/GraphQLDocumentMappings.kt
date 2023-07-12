@@ -6,6 +6,7 @@ object GraphQLDocumentMappings {
 
   const val GET_DIVER_LIST = "getDivers"
   const val GET_DIVER_BY_DIVER_ID = "getDiver"
+  const val ADD_DIVER = "addDiver"
 }
 
 object ProductModelVariables {
@@ -14,4 +15,7 @@ object ProductModelVariables {
 
 object DiverModelVariables {
   const val DIVER_ID = "diverId"
+  const val DIVER_NAME = "diverName"
+  const val DIVING_LEVEL = "divingLevel"
+  const val DIVING_LICENSE_NUMBER = "divingLicenseNumber"
 }

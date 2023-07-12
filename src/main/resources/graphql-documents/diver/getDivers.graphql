@@ -1,8 +1,0 @@
-query diverDetails {
-    getDivers {
-        diverId
-        diverName
-        divingLevel
-        divingLicenseNumber
-    }
-}

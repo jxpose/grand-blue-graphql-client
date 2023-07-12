@@ -1,0 +1,8 @@
+mutation AddDiver($diverName: String!, $divingLevel: Int!, $divingLicenseNumber: String!) {
+  addDiver(diverName: $diverName, divingLevel: $divingLevel, divingLicenseNumber: $divingLicenseNumber) {
+    diverId
+    diverName
+    divingLevel
+	divingLicenseNumber
+  }
+}
